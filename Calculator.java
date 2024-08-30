@@ -54,10 +54,10 @@ public class Calculator {
                 System.out.println("Ведіть перше число : ");
                 int a = scaner.nextInt();
                 System.out.println("Веддіть друге число :");
+                int b = scaner.nextInt();
                 if (b == 0){
                     System.out.println("На нуль ділити не можна");
                 }
-                int b = scaner.nextInt();
                 System.out.println("a : " + a);
                 System.out.println("b : " + b);
                 result = a / b;
